@@ -240,7 +240,7 @@ async function startjobotz() {
         return status
     }
 	
-    jobotz.public = true
+    jobotz.public = false
 
     jobotz.serializeM = (m) => smsg(jobotz, m, store)
 
